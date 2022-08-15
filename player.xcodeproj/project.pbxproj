@@ -16,6 +16,14 @@
 		0DC4C18B28AA24BE001D6C10 /* playerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4C18A28AA24BE001D6C10 /* playerTests.swift */; };
 		0DC4C19528AA24BE001D6C10 /* playerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4C19428AA24BE001D6C10 /* playerUITests.swift */; };
 		0DC4C19728AA24BE001D6C10 /* playerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC4C19628AA24BE001D6C10 /* playerUITestsLaunchTests.swift */; };
+		0DC4C1AB28AA27A9001D6C10 /* video8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DC4C1A328AA27A7001D6C10 /* video8.mp3 */; };
+		0DC4C1AC28AA27A9001D6C10 /* video7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DC4C1A428AA27A7001D6C10 /* video7.mp3 */; };
+		0DC4C1AD28AA27A9001D6C10 /* video6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DC4C1A528AA27A7001D6C10 /* video6.mp3 */; };
+		0DC4C1AE28AA27A9001D6C10 /* video5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DC4C1A628AA27A8001D6C10 /* video5.mp3 */; };
+		0DC4C1AF28AA27A9001D6C10 /* video2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DC4C1A728AA27A8001D6C10 /* video2.mp3 */; };
+		0DC4C1B028AA27A9001D6C10 /* video4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DC4C1A828AA27A8001D6C10 /* video4.mp3 */; };
+		0DC4C1B128AA27A9001D6C10 /* video1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DC4C1A928AA27A8001D6C10 /* video1.mp3 */; };
+		0DC4C1B228AA27A9001D6C10 /* video3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DC4C1AA28AA27A8001D6C10 /* video3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		0DC4C19028AA24BE001D6C10 /* playerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC4C19428AA24BE001D6C10 /* playerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerUITests.swift; sourceTree = "<group>"; };
 		0DC4C19628AA24BE001D6C10 /* playerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0DC4C1A328AA27A7001D6C10 /* video8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = video8.mp3; sourceTree = "<group>"; };
+		0DC4C1A428AA27A7001D6C10 /* video7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = video7.mp3; sourceTree = "<group>"; };
+		0DC4C1A528AA27A7001D6C10 /* video6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = video6.mp3; sourceTree = "<group>"; };
+		0DC4C1A628AA27A8001D6C10 /* video5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = video5.mp3; sourceTree = "<group>"; };
+		0DC4C1A728AA27A8001D6C10 /* video2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = video2.mp3; sourceTree = "<group>"; };
+		0DC4C1A828AA27A8001D6C10 /* video4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = video4.mp3; sourceTree = "<group>"; };
+		0DC4C1A928AA27A8001D6C10 /* video1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = video1.mp3; sourceTree = "<group>"; };
+		0DC4C1AA28AA27A8001D6C10 /* video3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = video3.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +121,14 @@
 				0DC4C17928AA24BC001D6C10 /* Main.storyboard */,
 				0DC4C17C28AA24BE001D6C10 /* Assets.xcassets */,
 				0DC4C17E28AA24BE001D6C10 /* LaunchScreen.storyboard */,
+				0DC4C1A928AA27A8001D6C10 /* video1.mp3 */,
+				0DC4C1A728AA27A8001D6C10 /* video2.mp3 */,
+				0DC4C1AA28AA27A8001D6C10 /* video3.mp3 */,
+				0DC4C1A828AA27A8001D6C10 /* video4.mp3 */,
+				0DC4C1A628AA27A8001D6C10 /* video5.mp3 */,
+				0DC4C1A528AA27A7001D6C10 /* video6.mp3 */,
+				0DC4C1A428AA27A7001D6C10 /* video7.mp3 */,
+				0DC4C1A328AA27A7001D6C10 /* video8.mp3 */,
 				0DC4C18128AA24BE001D6C10 /* Info.plist */,
 			);
 			path = player;
@@ -232,8 +256,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DC4C18028AA24BE001D6C10 /* LaunchScreen.storyboard in Resources */,
+				0DC4C1AF28AA27A9001D6C10 /* video2.mp3 in Resources */,
+				0DC4C1AE28AA27A9001D6C10 /* video5.mp3 in Resources */,
 				0DC4C17D28AA24BE001D6C10 /* Assets.xcassets in Resources */,
 				0DC4C17B28AA24BC001D6C10 /* Main.storyboard in Resources */,
+				0DC4C1AC28AA27A9001D6C10 /* video7.mp3 in Resources */,
+				0DC4C1AB28AA27A9001D6C10 /* video8.mp3 in Resources */,
+				0DC4C1B028AA27A9001D6C10 /* video4.mp3 in Resources */,
+				0DC4C1B128AA27A9001D6C10 /* video1.mp3 in Resources */,
+				0DC4C1B228AA27A9001D6C10 /* video3.mp3 in Resources */,
+				0DC4C1AD28AA27A9001D6C10 /* video6.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
